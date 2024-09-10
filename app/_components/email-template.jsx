@@ -23,16 +23,10 @@ export const EmailTemplate = ({
 		</Preview>
 		<Body style={main}>
 			<Container style={container}>
-				<Img
-					src='https://res.cloudinary.com/ddfzikgiz/image/upload/v1704687428/itelm_ryakt_f_50_dqyqh_e31f29dc71.png'
-					width="420"
-					height="300"
-					alt="Koala"
-					style={logo}
-				/>
+				
 				<Text style={paragraph}>Hi {body.fullName},</Text>
 				<Text style={paragraph}>
-					Thank you purchasing on Sleem Tech Ecommerce. Click on Below download button to download the all digital content
+					Thank you purchasing on Skill Shop Ecommerce. Click on Below download button to download the all digital content
 				</Text>
 				<Section style={btnContainer}>
 					<Button pX={12} pY={12}
