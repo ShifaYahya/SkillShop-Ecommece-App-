@@ -12,7 +12,15 @@ const config: Config = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+          'gold-gradient': 'linear-gradient(90deg, #d5c28f 0%, #9c7945 100%)',
       },
+      colors:{
+        bgcolor1 : "#111111",
+        primary: '#9c7945' ,
+        'gold-light': '#d5c28f', // Lighter gold color
+        'gold-dark': '#9c7945',  // Darker gold color
+        secondary : '#d5c28f'     //adding custom colors 
+      }
     },
   },
   plugins: [],
